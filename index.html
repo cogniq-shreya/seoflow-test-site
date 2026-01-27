@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broken Link Crawler Test Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Broken Link Test Site</h1>
+        <p>A static site designed to test crawler broken link detection.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <main>
+        <h2>Welcome</h2>
+        <p>This site contains intentional errors to validate crawler capabilities.</p>
+
+        <section class="broken-link-section">
+            <h3>Test Case 1: Internal Broken Links</h3>
+            <p>This link points to a non-existent internal page: <a href="missing-page.html">Missing Page</a></p>
+        </section>
+
+        <section class="broken-link-section">
+            <h3>Test Case 2: External Broken Links</h3>
+            <p>This link points to a 404 on Google: <a href="https://google.com/this-page-does-not-exist-12345">External 404</a></p>
+            <p>This link points to a non-resolving domain: <a href="http://this-domain-should-definitely-not-exist-12345.com">Dead Domain</a></p>
+        </section>
+
+        <section class="broken-link-section">
+            <h3>Test Case 3: Mixed Content</h3>
+            <p>Here is a valid link to <a href="blog.html">our blog</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Test Site.</p>
+    </footer>
+</body>
+</html>

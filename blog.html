@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Broken Link Test Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Blog</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <main>
+        <h2>Latest Posts</h2>
+
+        <article>
+            <h3><a href="blog/post-1.html">First Post (Valid)</a></h3>
+            <p>This is a valid link to our first post.</p>
+        </article>
+
+        <article>
+            <h3><a href="blog/post-2.html">Second Post (Valid)</a></h3>
+            <p>This is a valid link to our second post.</p>
+        </article>
+
+        <section class="broken-link-section">
+            <h3>Test Case: Broken Blog Post</h3>
+            <p>Read about our missing post: <a href="blog/post-404.html">Missing Post</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Test Site.</p>
+    </footer>
+</body>
+
+</html>
