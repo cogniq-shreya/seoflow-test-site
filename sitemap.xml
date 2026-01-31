@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>http://localhost:8000/index.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/index.html</loc>
       <lastmod>2026-01-27</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>http://localhost:8000/about.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/about.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/services.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/services.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/contact.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/contact.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/blog.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/blog.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/blog/post-1.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/blog/post-1.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/blog/post-2.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/blog/post-2.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <!-- Trap: These URLs do not exist on the server (Standard 404 URLs) -->
    <url>
-      <loc>http://localhost:8000/orphaned-page-1.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/orphaned-page-1.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
    <url>
-      <loc>http://localhost:8000/orphaned-page-2.html</loc>
+      <loc>https://cogniq-shreya.github.io/seoflow-test-site/orphaned-page-2.html</loc>
       <lastmod>2026-01-27</lastmod>
    </url>
 </urlset>

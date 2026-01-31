@@ -3,4 +3,4 @@ Allow: /
 # Intentional Block: This valid page should not be crawled
 Disallow: /services.html
 
-Sitemap: http://localhost:8000/sitemap.xml
+Sitemap: https://cogniq-shreya.github.io/seoflow-test-site/sitemap.xml
